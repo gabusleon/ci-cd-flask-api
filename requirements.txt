@@ -4,3 +4,6 @@ pytest
 pytest-mock
 Faker
 Gunicorn
+psycopg2
+psycopg2-binary
+flask-sqlalchemy
