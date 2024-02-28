@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://example_sum_postgres_use:0l7c0l80KYKnbRL6VvCclRhgmchN2uu7@dpg-cnfqblnsc6pc73el8be0-a/example-sum-postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://example_sum_postgres_user:0l7c0l80KYKnbRL6VvCclRhgmchN2uu7@dpg-cnfqblnsc6pc73el8be0-a/example-sum-postgres'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
