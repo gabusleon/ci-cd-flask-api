@@ -72,6 +72,7 @@ jobs:
       - name: Run tests unittest
         run: python -m unittest discover -s tests -p 'test_*.py'
   deploy:
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
