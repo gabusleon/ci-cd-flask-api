@@ -7,3 +7,4 @@ Gunicorn
 psycopg2
 psycopg2-binary
 flask-sqlalchemy
+flask_marshmallow
