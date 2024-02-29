@@ -3,6 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from marshmallow import fields
 
+
+
 app = Flask(__name__)
 ma = Marshmallow(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://example_sum_postgres_user:0l7c0l80KYKnbRL6VvCclRhgmchN2uu7@dpg-cnfqblnsc6pc73el8be0-a.oregon-postgres.render.com/example_sum_postgres'
