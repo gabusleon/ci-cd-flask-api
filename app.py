@@ -15,6 +15,7 @@ class Base(DeclarativeBase):
 db = SQLAlchemy(app, model_class=Base)
 
 class Sum(Base):
+    __tablename__ = "Sum"
     id: Mapped[int] = mapped_column(primary_key=True)
     num1: Mapped[int] = mapped_column(db.Integer, nullable=False)
     num2: Mapped[int] = mapped_column(db.Integer, nullable=False)
